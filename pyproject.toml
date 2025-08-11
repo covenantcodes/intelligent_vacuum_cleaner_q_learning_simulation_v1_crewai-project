@@ -1,0 +1,23 @@
+[project]
+name = "intelligent_vacuum_cleaner_q_learning_simulation"
+version = "0.1.0"
+description = "intelligent_vacuum_cleaner_q_learning_simulation using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=0.150.0,<1.0.0"
+]
+
+[project.scripts]
+intelligent_vacuum_cleaner_q_learning_simulation = "intelligent_vacuum_cleaner_q_learning_simulation.main:run"
+run_crew = "intelligent_vacuum_cleaner_q_learning_simulation.main:run"
+train = "intelligent_vacuum_cleaner_q_learning_simulation.main:train"
+replay = "intelligent_vacuum_cleaner_q_learning_simulation.main:replay"
+test = "intelligent_vacuum_cleaner_q_learning_simulation.main:test"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"

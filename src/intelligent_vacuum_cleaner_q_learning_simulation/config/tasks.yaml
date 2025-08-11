@@ -1,0 +1,42 @@
+---
+analyze_vacuum_cleaner_agent_architecture:
+  description: 'Analyze the intelligent vacuum cleaner system architecture with its
+    five key components: sensors (for detecting dirt and obstacles), performance element
+    (for executing cleaning and movement actions), learning element (for improving
+    path selection), critic (for evaluating cleaning coverage vs time), and problem
+    generator (for exploring new routes). Focus on how these components interact in
+    a 5×5 grid environment that is partially observable, stochastic, dynamic, discrete,
+    and initially unknown.'
+  expected_output: A comprehensive analysis document detailing the agent architecture,
+    component interactions, environment characteristics, and theoretical foundations
+    of the intelligent vacuum cleaner system in markdown format.
+  agent: intelligent_agent_systems_analyst
+design_q_learning_implementation:
+  description: Design a detailed Q-learning implementation for the vacuum cleaner
+    agent operating in the 5×5 grid environment. Define the state space representation
+    (considering partial observability), action space (movement directions and cleaning
+    action), reward function (balancing cleaning efficiency, collision avoidance,
+    and time), learning parameters (learning rate, discount factor, exploration strategy),
+    and convergence criteria. Address how the algorithm handles the stochastic and
+    dynamic nature of the environment.
+  expected_output: A complete Q-learning algorithm specification including state representation,
+    action space, reward function design, learning parameters, and pseudo-code implementation
+    suitable for the vacuum cleaner scenario in markdown format.
+  agent: reinforcement_learning_simulation_specialist
+  context:
+  - analyze_vacuum_cleaner_agent_architecture
+develop_performance_evaluation_framework:
+  description: Create a comprehensive performance evaluation framework for the intelligent
+    vacuum cleaner system. Define key performance indicators including cleaning coverage
+    percentage, collision frequency, time efficiency, learning convergence rate, and
+    path optimization metrics. Design evaluation scenarios for testing performance
+    under different obstacle configurations, dirt distributions, and dynamic environment
+    changes. Propose methods for comparing performance before and after learning,
+    and establish benchmarks for success.
+  expected_output: A detailed performance evaluation framework document including
+    metrics definitions, testing scenarios, benchmark criteria, and evaluation methodologies
+    for measuring the vacuum cleaner system's effectiveness in markdown format.
+  agent: performance_evaluation_researcher
+  context:
+  - analyze_vacuum_cleaner_agent_architecture
+  - design_q_learning_implementation
