@@ -1,6 +1,6 @@
-# IntelligentVacuumCleanerQLearningSimulation Crew
+# Intelligent Vacuum Cleaner QLearningSimulation Crew AI
 
-Welcome to the IntelligentVacuumCleanerQLearningSimulation Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+Welcome to the Intelligent Vacuum Cleaner QLearning Simulation Crew AI project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
 
 ## Installation
 
